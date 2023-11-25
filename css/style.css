@@ -1,0 +1,388 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    /* border: 2px solid red; */
+    max-width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+a {
+
+    text-decoration: none;
+    color: lightgray;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#logo {
+
+    font-size: 17px;
+    margin-left: 18px;
+    /* border: 2px solid green; */
+}
+
+
+ul {
+
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid magenta; */
+    list-style-type: none;
+    margin-right: 18px;
+}
+
+li {
+
+    margin-left: 25px;
+}
+
+#titulo {
+
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 41.5%;
+    margin-top: 38px;
+    margin-bottom: 38px;
+}
+
+section {
+
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    /* border: 2px solid darkcyan; */
+    margin-left: 14%;
+    margin-right: 10%;
+    text-align: center;
+    color: #bdbdbd;
+    font-family: 'Courier New', Courier, monospace;
+    width: 80%
+}
+
+
+article img {
+    height: 100%;
+    width: 100%;
+
+}
+
+article {
+
+    /* border: 2px solid blue; */
+    width: 235px;
+}
+
+#seis {
+
+    margin-top: 25px;
+    width: 425px;
+}
+
+
+@media (min-width: 1768px) and (max-width: 2064px) {
+
+    ul {
+
+        display: flex;
+        flex-direction: row;
+        /* border: 2px solid magenta; */
+        list-style-type: none;
+        margin-right: 18px;
+    }
+
+    article {
+
+        /* border: 2px solid blue; */
+        width: 235px;
+    }
+
+    #seis {
+
+        margin-top: 25px;
+        width: 425px;
+    }
+
+}
+
+@media (min-width: 1341px) and (max-width: 1767px) {
+
+    article {
+
+        /* border: 2px solid blue; */
+        width: 190px;
+    }
+
+    #seis {
+
+        margin-top: 25px;
+        width: 400px;
+    }
+
+}
+
+
+
+@media (min-width: 1229px) and (max-width: 1340px) {
+
+    article {
+
+        /* border: 2px solid blue; */
+        width: 220px;
+    }
+
+    #cinco {
+
+        margin-top: 25px;
+        width: 400px;
+    }
+
+    #seis {
+
+        margin-top: 25px;
+        width: 400px;
+    }
+
+}
+
+@media (min-width: 1081px) and (max-width: 1228px) {
+
+    article {
+
+        /* border: 2px solid violet; */
+        width: 260px;
+    }
+
+    #quatro {
+
+        margin-top: 25px;
+        width: 260px;
+    }
+
+    #cinco {
+
+        margin-top: 25px;
+        width: 260px;
+    }
+
+
+    #seis {
+
+        margin-top: 25px;
+        width: 260px;
+    }
+}
+
+@media (min-width: 854px) and (max-width: 1080px) {
+
+    article {
+
+        /* border: 2px solid gold; */
+        width: 330px;
+    }
+
+    #tres {
+
+        margin-top: 25px;
+        width: 330px;
+    }
+
+    #quatro {
+
+        margin-top: 25px;
+        width: 330px;
+    }
+
+    #cinco {
+
+        margin-top: 25px;
+        width: 330px;
+    }
+
+
+    #seis {
+
+        margin-top: 25px;
+        width: 330px;
+    }
+
+}
+
+@media (min-width: 671px) and (max-width: 853px) {
+
+    article {
+
+        margin-left: 40px;
+        /* border: 2px solid aquamarine; */
+        width: 475px;
+    }
+
+    #dois {
+
+        margin-top: 25px;
+        width: 475px;
+    }
+
+    #tres {
+
+        margin-top: 25px;
+        width: 475px;
+    }
+
+    #quatro {
+
+        margin-top: 25px;
+        width: 475px;
+    }
+
+    #cinco {
+
+        margin-top: 25px;
+        width: 475px;
+    }
+
+
+    #seis {
+
+        margin-top: 25px;
+        width: 475px;
+    }
+
+}
+
+@media (max-width: 670px) {
+
+    header {
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-color: black;
+        /* border: 2px solid red; */
+        max-width: 100%;
+        padding-top: 25px;
+        padding-bottom: 25px;
+
+    }
+
+    a {
+
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    #logo {
+
+        font-family: arial;
+        font-size: 40px;
+        margin-left: 18px;
+        /* border: 2px solid green; */
+    }
+
+
+    ul {
+
+        display: flex;
+        height: 152px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        /* border: 2px solid magenta; */
+        list-style-type: none;
+        margin-right: 32px;
+    }
+
+    li {
+
+        margin-bottom: 8px;
+        background-color: #bdbdbd;
+    }
+
+    #sobre {
+        padding-right: 33.5px;
+    }
+
+    #produtos {
+        padding-right: 8.5px;
+    }
+
+    #noticias {
+        padding-right: 8.5px;
+    }
+
+    #suporte {
+        padding-right: 17px;
+    }
+
+    #contato {
+        padding-right: 17px;
+    }
+
+    #titulo {
+
+        margin-left: 38%;
+        margin-top: 38px;
+        margin-bottom: 38px;
+    }
+
+    section {
+
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    article {
+
+        /* border: 2px solid aquamarine; */
+        width: 100%;
+    }
+
+    #dois {
+
+        margin-top: 25px;
+        width: 100%;
+    }
+
+    #tres {
+
+        margin-top: 25px;
+        width: 100%;
+    }
+
+    #quatro {
+
+        margin-top: 25px;
+        width: 100%;
+    }
+
+    #cinco {
+
+        margin-top: 25px;
+        width: 100%;
+    }
+
+
+    #seis {
+
+        margin-top: 25px;
+        width: 100%;
+    }
+}
